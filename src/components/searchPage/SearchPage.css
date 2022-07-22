@@ -1,0 +1,36 @@
+.header > .MuiTypography-root {
+  color: #202124;
+  text-decoration-color: #fff;
+  font-size: 0.8rem;
+  padding: 7.5px;
+  font-family: sans-serif;
+}
+
+.search_bar {
+  width: 500px;
+  margin: auto;
+  padding: 10px 15px;
+  border: #dadce0 1px solid;
+  border-radius: 2rem !important;
+}
+
+.search_bar_input input {
+  outline: 0;
+  border: none;
+  width: -webkit-fill-available;
+}
+
+.search_buttons {
+  color: #202124;
+}
+.search_buttons button {
+  border: 1px solid white;
+  background-color: #f8f9fa;
+  text-transform: inherit;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.search_buttons button:hover {
+  border: 1px solid #dadce0;
+}
