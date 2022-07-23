@@ -8,7 +8,20 @@ export const Results = () => {
   const [{ term }, dispatch] = useStateValue();
 
   // API CALL
-  const { data } = useGoogleSearch(term); 
+  const { data } = useGoogleSearch(term);
+
+  console.log(data);
+
+  if (data?.error) {
+    return (
+      <Stack p={4}>
+        <h4 className="result">
+          Quota exceeded for quota metric 'Queries' and limit 'Queries
+          per day' of service. Please contact the developer to update.
+        </h4>
+      </Stack>
+    );
+  }
 
   return (
     <Stack p={4}>
