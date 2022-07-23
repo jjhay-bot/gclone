@@ -14,3 +14,7 @@
 .result p {
   color: #4d5156;
 }
+
+.logo img:hover {
+  cursor: pointer;
+}
