@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, Outlet } from "react-router-dom";
 import App from "./App";
-import { ResultPage } from "./components/resultPage/resultPage";
+import { ResultPage } from "./components/resultPage/ResultPage";
 
 export const Router = () => {
   return (
